@@ -1,0 +1,15 @@
+[
+  {
+    "region": "Asheville",
+    "locations": [
+      {
+        "name": "Summit Coffee Co.",
+        "placeID": "ChIJlw1D8LWMWYgRhM7mpx8NtEg"
+      },
+      {
+        "name": "Trade and Lore",
+        "placeID": "ChIJP7eRmlbzWYgR6VeDqz__FXg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "region": "Asheville",
+    "locations": [
+      {
+        "name": "Summit Coffee Co.",
+        "placeID": "ChIJlw1D8LWMWYgRhM7mpx8NtEg"
+      },
+      {
+        "name": "Trade and Lore",
+        "placeID": "ChIJP7eRmlbzWYgR6VeDqz__FXg"
+      },
+      {
+        "name": "Farewell Coffee",
+        "placeID": "ChIJc8-PN9nzWYgRyMZTACLCTJs"
+      },
+      {
+        "name": "Early Girl Eatery",
+        "placeID": "ChIJ65fm8lbzWYgRNf3n4O5oASM"
+      }
+    ]
+  },
+  {
+    "region": "Atlanta",
+    "locations": [
+      {
+        "name": "East Pole Coffee Co. ",
+        "placeID": "ChIJZybc5LYF9YgRv0t0iDtA9zc"
+      },
+      {
+        "name": "East Pole Coffee Co.",
+        "placeID": "ChIJx16lFpIH9YgRt6rb9tZviYU"
+      },
+      {
+        "name": "BRASH Coffee",
+        "placeID": "ChIJ__5mduwE9YgR5qBPCMdD2Z0"
+      },
+      {
+        "name": "Brash Coffee",
+        "placeID": "ChIJOR0tTEAF9YgRXcJfgFI5W0g"
+      }
+    ]
+  }
+
+]
