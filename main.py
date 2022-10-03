@@ -2,6 +2,7 @@ from flask import Flask, redirect, request, render_template
 from Exceptions import Exceptions
 from Schools import School
 from Helpers import Helpers
+import requests
 
 app = Flask(__name__)
 
@@ -14,12 +15,11 @@ def lookup():
         if address:
             address_data = Helpers.address_data(address)
             weather = Helpers.get_weather(lat=address_data["lat"], lng=address_data["lng"])
-            listings = Helpers.get_listings(address_data["formatted_address"])
-            house_data = Helpers.get_house_data(listings)
-            property_region = "Atlanta" if "GA" in address else "Asheville"
-            distances = Helpers.get_distance_from(lat=address_data["lat"], lng=address_data["lng"], property_region=property_region)
-            return render_template("results.html", weather=weather, address=address_data, listings=listings,
-                                   house_data=house_data, distances=distances)
+
+
+
+            home_data = Helpers.address_data_refactor(address)
+            return render_template("results.html", weather=weather, listings=[], house_data=home_data)
 
         else:
             raise Exceptions.MissingArgumentsException(missing_args=request.args)
@@ -98,6 +98,7 @@ def get_distance_from():
             "error": str(e),
             "status_code": 500
         }
+
 
 
 
