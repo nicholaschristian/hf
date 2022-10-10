@@ -1,0 +1,10 @@
+{
+    "name": "hf",
+    "description": "",
+    "version": "",
+    "repository": "",
+    "author": "",
+    "dependencies": {
+        "argon-dashboard": "1.2.0"
+    }
+  }
